@@ -1,0 +1,72 @@
+/*
+configuação do menu horizontal
+*/
+
+header {
+    border-bottom: .1em solid #000
+}
+.logo {
+    width: 70px;
+    height: 70px;
+    align-items: center;
+}
+.menu {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center ;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navMenu {
+
+    width: 100%;
+    height: 15%;
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 0.712);
+    font-size: 18px;  
+    display: flex;      
+    }
+.login {
+    
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    margin-right: 1%;    
+}
+.navMenu ul {
+    list-style: none;
+    margin-right: 2%;
+    margin-left: 20%;
+    padding: 5px;
+}
+
+.navMenu ul, .logo {
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+.navMenu ul li {
+    padding: 20px;
+}
+.navMenu ul li a, .login a {
+    padding-left: 1.2vw;
+    color: #333;
+    text-decoration: none;
+}
+.navMenu ul li a:hover, #loginMenu:hover {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+    
+
+
+    /*
+    final das configurações do menu horizontal
+    */

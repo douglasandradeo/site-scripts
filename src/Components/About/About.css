@@ -1,0 +1,29 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    background-color: #252525;
+    background-image: url("../../img/fundo_quemsomos.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+.a-logo {
+    height: 300px;
+    width: 200px;
+    background-color: #252525;
+    padding-left: 30px;
+    border: 200px;
+}
+
+.a-text p {
+    padding-left: 50px;
+    text-align:left;
+    width: 600px;
+    color:#D5D5D5;
+    line-height: 30px;
+        background-color: #252525;
+}

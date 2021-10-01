@@ -1,0 +1,139 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+.services div {
+    background-color: white;
+}
+
+.services div h1 {
+    width: 80%;
+}
+
+.h1-1 {
+    width: 800px;
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+.h1-2 {
+    width: 1000px;
+    padding-left: 120px;
+    padding-bottom: 80px;
+}
+
+.grafico {
+    padding-left: 200px;
+    background-color: white;
+}
+
+.feedback {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: white;
+}
+
+
+.fb-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 10%;
+    background-color: white;
+}
+
+.fb-img {
+    width: 215px;
+    height: 215px;
+    border-radius: 5%;
+    padding-bottom: 15px;
+}
+
+.fb-text {
+    font-style: italic;
+    font-size: 15px;
+    height: 200px;
+    width: 250px;
+    margin: 10px;
+}
+
+.left-arrow, .right-arrow {
+    margin-top: 15px;
+    height: 200px;
+    width: 100px;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+    box-shadow: 0 0 1px rgba(129, 127, 127, 0.5);
+    transition: .1s;
+}
+
+.container-feedback {
+    background-color: white;
+}
+
+.footer, span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: -100%;
+    background-color: #252525;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    color: white;
+    padding-top: 10px; 
+    background-color: #252525;  
+}
+
+.footer ul li {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    color: white;
+    background-color: #252525;
+}
+
+.footer ul li a {
+    padding-left: 1.2vw;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #252525;
+}
+
+.footer ul li a:hover {
+    padding-left: 1.2vw;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span {
+    color: #808080;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #252525;
+    padding-top: 60px;
+}
+
